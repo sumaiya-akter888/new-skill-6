@@ -1,0 +1,66 @@
+
+*{
+    font-size: small;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-icon{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.nav-icon i{
+    margin: 5px;
+}
+
+.banner-section{
+    position: relative;
+}
+
+
+.banner-content{
+    color: white; 
+    position: absolute;
+    top: 10rem;
+    left: 8.3rem;
+}
+
+.hi-there span{
+    color: blue;
+    font-weight: 700;
+}
+
+.icon-card i{
+    color: blue
+}
+
+.image img{
+    height: 40px;
+     width:40px;
+   
+}
+
+.accordion-button::before {
+   
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-right: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-button{
+    
+}
